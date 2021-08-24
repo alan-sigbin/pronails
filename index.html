@@ -1,0 +1,844 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="scss/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet"> 
+
+    <title>Pro Nails</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <section>
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container">
+          <a href="#" class="navbar-brand d-none d-md-block">
+            <img src="/assets/Logo1.png" alt="pronail logo">
+          </a>
+  
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#about" class="nav-link">About us</a>
+              </li>
+              <li class="nav-item">
+                <a href="#services" class="nav-link">Services</a>
+              </li>
+              <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>  
+    </section>
+
+    <!-- Carousel -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-keyboard="true">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+
+    <!-- Services -->
+    <section id="services" class="my-5 py-5">
+      <div class="container">
+        <div class="row py-5">
+          <h3>
+            Services
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam nisi nam animi sint voluptates est, labore officia ipsum dolor numquam nobis magni id molestias accusamus pariatur eligendi ratione cupiditate magnam!
+          </p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row row-cols-1 my-sm-2 row-cols-sm-2 row-cols-md-3">
+          <div class="col">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="card">
+                    <h5 class="card-header">
+                      Nails
+                    </h5>
+                    <div class="card-body">
+                      <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, cumque praesentium illum qui in vero dolor soluta maiores cupiditate, ut ad voluptatem sint, cum dicta magnam nulla recusandae corrupti consequuntur?
+                      </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item btn"
+                          data-bs-toggle="modal" 
+                          data-bs-target="#ManicureModal">
+                          Manicure
+                       </li>
+                       <li class="list-group-item btn"
+                          data-bs-toggle="modal" 
+                          data-bs-target="#PedicureModal">
+                          Pedicure
+                       </li>
+                       <li class="list-group-item btn"
+                          data-bs-toggle="modal" 
+                          data-bs-target="#AcrylicModal">
+                          Acrylic
+                       </li>
+                       <li class="list-group-item btn"
+                          data-bs-toggle="modal" 
+                          data-bs-target="#UVGelModal">
+                          UV gel
+                       </li>
+                       <li class="list-group-item btn"
+                          data-bs-toggle="modal" 
+                          data-bs-target="#BioGelModal">
+                          Bio gel
+                       </li>
+                       <li class="list-group-item btn"
+                          data-bs-toggle="modal" 
+                          data-bs-target="#NailDesignModal">
+                          Nail Design
+                       </li>
+                       <li class="list-group-item btn"
+                          data-bs-toggle="modal" 
+                          data-bs-target="#TakeoffModal">
+                          Take off
+                       </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="card">
+                    <h5 class="card-header">
+                      Hair
+                    </h5>
+                    <div class="card-body">
+                      <p class="card-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, cumque praesentium illum qui in vero dolor soluta maiores cupiditate, ut ad voluptatem sint, cum dicta magnam nulla recusandae corrupti consequuntur?
+                      </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item btn"
+                          data-bs-toggle="modal" 
+                          data-bs-target="#KidsHaircutModal">
+                          Kid's Haircut
+                      </li>
+                      <li class="list-group-item btn"
+                          data-bs-toggle="modal" 
+                          data-bs-target="#MensHaircutModal">
+                          Men's Haircut
+                      </li>
+                      <li class="list-group-item btn"
+                          data-bs-toggle="modal" 
+                          data-bs-target="#BeardTrimModal">
+                          Beard Trim
+                      </li>
+                      <li class="list-group-item btn"
+                          data-bs-toggle="modal" 
+                          data-bs-target="#LadiesHaircutModal">
+                          Ladies Haircut
+                      </li>
+                      <li class="list-group-item btn"
+                          data-bs-toggle="modal" 
+                          data-bs-target="#HairWashModal">
+                          Hair Wash
+                      </li>
+                      <li class="list-group-item btn"
+                          data-bs-toggle="modal" 
+                          data-bs-target="#HairTreatmentModal">
+                          Hair Treatment
+                      </li>
+                      <li class="list-group-item btn"
+                          data-bs-toggle="modal" 
+                          data-bs-target="#HairDyeModal">
+                          Hair Dye
+                      </li>
+                      <li class="list-group-item btn"
+                          data-bs-toggle="modal" 
+                          data-bs-target="#HairPermModal">
+                          Hair Perm
+                      </li>
+                      <li class="list-group-item btn"
+                          data-bs-toggle="modal" 
+                          data-bs-target="#RebondModal">
+                          Rebond
+                      </li>
+                      <li class="list-group-item btn"
+                          data-bs-toggle="modal" 
+                          data-bs-target="#RemovalsModal">
+                          Removals
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col Wellness">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="card">
+                    <h5 class="card-header">
+                      Body and Wellness
+                    </h5>
+                    <div class="card-body">
+                      <h1 class="card-text">
+                        Available Soon
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Cotact -->
+    <section id="contact" class="bg-dark align-con">
+      <div class="container pt-5 mt-5">
+        <h5>Come take a visit</h5>
+        <div class="row row-cols-1 row-cols-md-2 justify-content-center align-items-center">
+          <div class="col">
+            <p>2271 Kingston Rd, Scarborough, ON, M1N 1T8</p>
+            <p>salon operates 10a.m.–8p.m. during Mon to Sat and 12a.m.–5p.m. during Sun</p>
+            <p>phone: (416) 266-7921</p>
+          </div>
+
+          <div id="map" class="d-flex justify-content-center embed-responsive embed-responsive-4by3">
+            <iframe 
+              class="embed-responsive-item" 
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11536.923649545723!2d-79.2509947!3d43.7057501!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe158a49c0e1d0fee!2sPro%20Nails!5e0!3m2!1sen!2sca!4v1629687698053!5m2!1sen!2sca" 
+              allowfullscreen
+              loading="lazy">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ======= Footer ======= -->
+    
+    <footer>
+      <div class="footer-top pt-3 bg-dark">
+        <div class="container">
+          <div class="row">
+            <!-- <div class="d-flex justify-content-center text-light">
+              &copy; Copyright <strong><span>Serenity</span></strong>. All Rights Reserved
+            </div> -->
+            <div class="text-light pt-5">
+              <p class="text-center">
+                Designed by Allan Sigbin
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+
+    <!-- ===============================================MODALS=================================================== -->
+    <!-- MANICURE -->
+    <div class="modal fade" id="ManicureModal" tabindex="-1" aria-labelledby="ManicureModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="ManicureModalLabel">Manicure Services</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <table class="table table-responsive table-striped w-100%">
+              <tbody>
+                <tr>
+                  <th scope="row">with polish</th>
+                  <td data-label="with polish">20.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">without polish</th>
+                  <td data-label="without polish">18.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">express manicure</th>
+                  <td data-label="express manicure">15.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">change polish</th>
+                  <td data-label="change polish">10.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">shellac manicure</th>
+                  <td data-label="shellac manicure">40.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">kid's manicure</th>
+                  <td data-label="kid's manicure">10.00 CAD</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <!-- PEDICURE -->
+    <div class="modal fade" id="PedicureModal" tabindex="-1" aria-labelledby="PedicureModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="PedicureModalLabel">Pedicure Service</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <table class="table table-responsive table-striped w-100%">
+              <tbody>
+                <tr>
+                  <th scope="row">with polish</th>
+                  <td data-label="with polish">35.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">without polish</th>
+                  <td data-label="without polish">30.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">express pedicure</th>
+                  <td data-label="express pedicure">20.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">change polish</th>
+                  <td data-label="change polish">10.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">shellac pedicure</th>
+                  <td data-label="shellac pedicure">50.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">kid's pedicure</th>
+                  <td data-label="kid's pedicure">15.00 CAD</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- ACRYLIC -->
+    <div class="modal fade" id="AcrylicModal" tabindex="-1" aria-labelledby="AcrylicModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="AcrylicModalLabel">Acrylic</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <table class="table table-responsive table-striped w-100%">
+              <tbody>
+                <tr>
+                  <th scope="row">Full Set</th>
+                  <td data-label="Full Set">40.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">Refill</th>
+                  <td data-label="Refill">35.00 CAD</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- UV GEL -->
+    <div class="modal fade" id="UVGelModal" tabindex="-1" aria-labelledby="UVGelModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="UVGelModalLabel">UV-Gel</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <table class="table table-responsive table-striped w-100%">
+              <tbody>
+                <tr>
+                  <th scope="row">Full Set</th>
+                  <td data-label="Full Set">65.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">Refill</th>
+                  <td data-label="Refill">50.00 CAD</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Bio Gel -->
+    <div class="modal fade" id="BioGelModal" tabindex="-1" aria-labelledby="BioGelModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="BioGelModalLabel">Bio-Gel</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <table class="table table-responsive table-striped w-100%">
+              <tbody>
+                <tr>
+                  <th scope="row">Full Set</th>
+                  <td class="txt-right" data-label="Full Set">40.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">Refill</th>
+                  <td class="txt-right" data-label="Refill">30.00 CAD</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <!-- Nails Takeoff -->
+    <div class="modal fade" id="TakeoffModal" tabindex="-1" aria-labelledby="TakeoffModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="TakeoffModalLabel">Nails Takeoff</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <table class="table table-responsive table-striped w-100%">
+              <tbody>
+                <tr>
+                  <th class="txt-right" scope="row">10.00 CAD</th>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Nail Design -->
+    <div class="modal fade" id="NailDesignModal" tabindex="-1" aria-labelledby="NailDesignModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="NailDesignModalLabel">Nail Design</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <table class="table table-responsive table-striped w-100%">
+              <tbody>
+                <tr>
+                  <th class="txt-right" scope="row">5.00 CAD</th>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <!-- Kid's Haircut -->
+    <div class="modal fade" id="KidsHaircutModal" tabindex="-1" aria-labelledby="KidsHaircutModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="KidsHaircutModalLabel">Kid's Haircut</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <table class="table table-responsive table-striped w-100%">
+              <tbody>
+                <tr>
+                  <th scope="row">Kid's Haircut</th>
+                  <td class="txt-right" data-label="Kid's Haircut">18.00 CAD</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MENS HAIRCUT -->
+    <div class="modal fade" id="MensHaircutModal" tabindex="-1" aria-labelledby="MensHaircutModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="MensHaircutModalLabel">Men's Haircut</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <table class="table table-responsive table-striped w-100%">
+              <tbody>
+                <tr>
+                  <th scope="row">Buzzcut</th>
+                  <td class="txt-right" data-label="Buzzcut">10.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">Regular</th>
+                  <td class="txt-right" data-label="Regular">20.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">Men's Haircut with Treatment</th>
+                  <td class="txt-right" data-label="Men's Haircut with Treatment">30.00 CAD</td>
+                </tr>
+              </tbody>
+            </table>            
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- BEARDTRIM -->
+    <div class="modal fade" id="BeardTrimModal" tabindex="-1" aria-labelledby="BeardTrimModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="BeardTrimModalLabel">Beard Trim</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <table class="table table-responsive table-striped w-100%">
+              <tbody>
+                <tr>
+                  <th scope="row">Beard Trim – Full Shave</th>
+                  <td class="txt-right" data-label="Beard Trim – Full Shave">25.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">Beard Trim – Front</th>
+                  <td class="txt-right" data-label="Beard Trim – Front">18.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">Beard Trim – Neck</th>
+                  <td class="txt-right" data-label="Beard Trim – Neck">5.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">Beard Trim – Stylish</th>
+                  <td class="txt-right" data-label="Beard Trim – Stylish">9.00 CAD</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- LADIES HAIRCUT -->
+    <div class="modal fade" id="LadiesHaircutModal" tabindex="-1" aria-labelledby="LadiesHaircutModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="LadiesHaircutModalLabel">Ladies Haircut</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <table class="table table-responsive table-striped w-100%">
+              <tbody>
+                <tr>
+                  <th scope="row">Ladies's Haircut</th>
+                  <td data-label="Ladies's Haircut">25.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">Ladies's Haircut with Hairwash </th>
+                  <td data-label="Ladies's Haircut with Hairwash ">28.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">Ladies's Haircut with Hair Treatment &amp; Massage</th>
+                  <td data-label="Ladies's Haircut with Hair Treatment & Massage">35.00 CAD</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- HAIR WASH -->
+    <div class="modal fade" id="HairWashModal" tabindex="-1" aria-labelledby="HairWashModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="HairWashModalLabel">Hair Wash</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <table class="table table-responsive table-striped w-100%">
+              <tbody>
+                <tr>
+                  <th scope="row">Shampoo</th>
+                  <td data-label="Shampoo">5.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">Hairwash &amp; Blowdry with style</th>
+                  <td data-label="Hairwash & Blowdry with style"></td>
+                </tr>
+                <tr>
+                  <th scope="row">short</th>
+                  <td data-label="short">10.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">medium</th>
+                  <td data-label="medium">12.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">long</th>
+                  <td data-label="long">15.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">X-long</th>
+                  <td data-label="X-long">20.00 CAD</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- TREATMENT -->
+    <div class="modal fade" id="HairTreatmentModal" tabindex="-1" aria-labelledby="HairTreatmentModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="HairTreatmentModalLabel">Hair Treatment</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <table class="table table-responsive table-striped w-100%">
+              <tbody>
+                <tr>
+                  <th scope="row">Hair &amp; Scalp Treatment</th>
+                  <td data-label="Hair & Scalp Treatment"></td>
+                </tr>
+                <tr>
+                  <th scope="row">short</th>
+                  <td data-label="short">15.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">medium</th>
+                  <td data-label="medium">18.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">long</th>
+                  <td data-label="long">20.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">X-long</th>
+                  <td data-label="X-long">20.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">Scalp</th>
+                  <td data-label="Scalp">10.00 CAD</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- HAIRDYE -->
+    <div class="modal fade" id="HairDyeModal" tabindex="-1" aria-labelledby="HairDyeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="HairDyeModalLabel">Hair Dye</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <table class="table table-responsive table-striped w-100%">
+              <tbody>
+                <tr>
+                  <th scope="row">Full Hair Dye (starts at)</th>
+                  <td data-label="Full Hair Dye (starts at)">45.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">Refill</th>
+                  <td data-label="Refill">30.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">Highlights (tin foil)</th>
+                  <td data-label="Highlights (tin foil)">25.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">Full Head Bleach &amp; Toner (starts at)</th>
+                  <td data-label="Full Head Bleach & Toner (starts at)">60.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">Cellophane (starts at)</th>
+                  <td data-label="Cellophane (starts at)">15.00 CAD</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- HAIRPERM -->
+    <div class="modal fade" id="HairPermModal" tabindex="-1" aria-labelledby="HairPermModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="HairPermModalLabel">Hair Perm</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <table class="table table-responsive table-striped w-100%">
+              <tbody>
+                <tr>
+                  <th scope="row">Soft Curl</th>
+                  <td data-label="Soft Curl">25.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">Perm(starts at)</th>
+                  <td data-label="Perm(starts at)">30.00 CAD</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- REBOND -->
+    <div class="modal fade" id="RebondModal" tabindex="-1" aria-labelledby="RebondModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="RebondModalLabel">Rebond</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <table class="table table-responsive table-striped w-100%">
+              <tbody>
+                <tr>
+                  <th scope="row">Rebond (starts at)</th>
+                  <td data-label="Rebond (starts at)">60.00 CAD</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- REMOVALS -->
+    <div class="modal fade" id="RemovalsModal" tabindex="-1" aria-labelledby="RemovalsModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="RemovalsModalLabel">Removals</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <table class="table table-responsive table-striped w-100%">
+              <tbody>
+                <tr>
+                  <th scope="row">Legs-Full</th>
+                  <td data-label="Legs-Full">40.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">Legs-Half</th>
+                  <td data-label="Legs-Half">30.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">Arms-Full</th>
+                  <td data-label="Arms-Full">25.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">Arms-Half</th>
+                  <td data-label="Arms-Half">20.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">Underarms</th>
+                  <td data-label="Underarms">15.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">Back</th>
+                  <td data-label="Back">35.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">Full Face</th>
+                  <td data-label="Full Face">25.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">Eyebrows</th>
+                  <td data-label="Eyebrows">10.00 CAD</td>
+                </tr>
+                <tr>
+                  <th scope="row">Upper lip</th>
+                  <td data-label="Upper lip">8.00 CAD</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    
+
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

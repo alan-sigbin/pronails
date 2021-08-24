@@ -1,0 +1,93 @@
+$lightcolor: #fef9ec;
+$accentcolor: #FFB577;
+$darkcolor: #0C0D31;
+$soon: rgb(255, 99, 79); 
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;footer {
+    
+    }
+    padding: 0;
+}
+
+body {
+    margin-top: 9em;
+    background-color: $lightcolor;
+}
+
+.card-body {
+    background-color: $lightcolor;
+}
+
+.modal-header {
+    background-color: $darkcolor;
+    color: $lightcolor;
+}
+.modal-body {
+    background-color: $lightcolor;
+    color: $darkcolor;
+    table {
+        border: 0;
+        th {
+            border: 0;
+        }
+        td {
+            border: 0;         
+        }
+    }
+}
+
+nav {
+    img {
+        max-width: 30%
+    }
+}
+
+.navbar-brand {
+    color: $accentcolor;
+}
+
+#services {
+    padding: 1rem 0;
+    .card {
+        -webkit-box-shadow: -5px 8px 15px 2px #BC9B62; 
+        box-shadow: -5px 8px 15px 2px #BC9B62;
+        .card-header {
+            background-color: $accentcolor;
+            color: rgb(255, 102, 0);
+        }
+        ul {
+            border: 0;
+            li {
+                background-color: $lightcolor;
+                border: 0;
+                &:hover {
+                    background-color: $accentcolor;
+                    color: $soon;
+                }
+            }
+        }
+        
+    }
+
+    .Wellness {
+        .card-text {
+            color: rgb(255, 99, 79);
+        }
+    }
+}
+
+#contact {
+    color: $lightcolor;
+
+    h5 {
+        color: orange;
+    }
+
+    iframe {
+        width: 100;
+        height: 100;
+    }
+}
